@@ -7,15 +7,15 @@ This is an educational project focused on:
 - Writing a small linear algebra library (`matrix` + `math_vector`)
 - Visualizing rolling predictions in the terminal with ANSI colors
 
-## Math
+### Math
 
 We solve the classic ridge regression problem:
 
-\[
-\mathbf{w} = (X^\top X + \lambda I)^{-1} X^\top \mathbf{y}
-\]
+$$
+\mathbf{w} = (X^{\top} X + \lambda I)^{-1} X^{\top} \mathbf{y}
+$$
 
-Where each row of \(X\) is a window of the previous `windowSize` normalized prices, and \(y\) is the next price.
+Where each row of \( X \) is a window of the previous `windowSize` normalized prices, and \( y \) is the next price.
 
 ## Features
 
